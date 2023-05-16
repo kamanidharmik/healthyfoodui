@@ -33,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 ListTile(
-                  leading: const Icon(Icons.search, color: Colors.white),
+                  leading: const Icon(Icons.search, color: Colors.black),
                   trailing: Container(
                     width: 80,
                     child: Row(
@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           padding: EdgeInsets.all(10.0),
                           child: Icon(
                             Icons.notifications_active,
-                            color: Colors.white,
+                            color: Colors.black,
                           ),
                         ),
                         Padding(
@@ -170,7 +170,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     String details = procontroller
                                         .productlist[index].productdescription
                                         .toString();
-                                         String price = procontroller
+                                    String price = procontroller
                                         .productlist[index].productprice
                                         .toString();
                                     Navigator.push(
